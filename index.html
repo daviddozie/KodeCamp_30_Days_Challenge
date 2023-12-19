@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--bootstrap cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome cdn-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fontawesome.com/icons/threads?f=brands&s=solid">
+    <!--font awesome script-->
+    <script src="https://kit.fontawesome.com/b947a64090.js" crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--custom css-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>My Portfolio</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('zSMQdTzaO87AzyJg2')
+    </script>
+</head>
+
+<body>
+    <header>
+        <!------------Navigation------------>
+        <nav class="navbar navbar-expand-lg container-fluid py-4">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-white" href="#">
+                    David Mgbede
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars text-warning fs-1"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-lg-3">
+                            <a class="nav-link fw-bold landing d-flex align-items-center gap-2 text-white" href="#">
+                                <i class="fa-solid fa-house"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item px-lg-3">
+                            <a class="nav-link fw-bold d-flex align-items-center gap-2 text-white" href="#about">
+                                <i class="fa-solid fa-user"></i>
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item px-lg-3">
+                            <a class="nav-link fw-bold d-flex align-items-center gap-2 text-white" href="#project">
+                                <i class="fa-solid fa-list"></i>
+                                Projects
+                            </a>
+                        </li>
+                        <li class="nav-item px-lg-3">
+                            <a class="nav-link fw-bold d-flex align-items-center gap-2 text-white" href="#contact">
+                                <i class="fa-solid fa-comments"></i>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!----------------Navigation-end---------------->
+    </header>
+    <main class="container overflow-hidden">
+        <!--intro-->
+        <section class="intro-wrapper">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="border">
+                        <h1 class="title mb-5 text-center text-lg-start">Hello, My name is <Span class="name">David Mgbede</Span></h1>
+                        <h4 class="track text-center text-lg-start">Frontend Developer</h4>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./images/profile2.jpg" alt="profile" class="profile">
+                </div>
+            </div>
+        </section>
+        <!--About-->
+        <section class="my-5 pt-5" id="about">
+            <div>
+                <h1 class="text-center head pb-4">About</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-l-text text-center text-lg-start">
+                        <p>Meet David Mgbede</p>
+                        <h4>Blended Web Developer</h4>
+                        <p>Get to Know me</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-r-text text-center text-lg-start">
+                        <p>As a dedicated frontend developer, I passionately create engaging digital experiences using
+                            HTML, CSS, and JavaScript. With a problem-solving mindset, I prioritize user-centric design,
+                            collaboration, and continuous learning. I thrive in collaborative environments, integrating
+                            frontend elements seamlessly while embracing new technologies. Beyond coding, I'm committed
+                            to sharing knowledge, mentoring, and leaving a lasting impact on the ever-evolving landscape
+                            of web development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--projects-->
+        <section class="py-5 my-5" id="project">
+            <div>
+                <h1 class="text-center head pb-4">Projects</h1>
+            </div>
+            <div class="row gy-4">
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://daviddozie.github.io/Cyclers_Studio/">
+                        <img src="./images/Cyclers-Studio.png" alt="project1" class="projectImg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://daviddozie.github.io/DozieSneakers/">
+                        <img src="./images/DozieSneakers.png" alt="project1" class="projectImg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://daviddozie.github.io/FoodBag/">
+                        <img src="./images/FoodBag.png" alt="project1" class="projectImg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://daviddozie.github.io/MedCall_Project/">
+                        <img src="./images/MedCall.png" alt="project1" class="projectImg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://daviddozie.github.io/Simple-Quiz-App/">
+                        <img src="./images/Simple-Quiz-App.png" alt="project1" class="projectImg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://skilbridge.netlify.app/">
+                        <img src="./images/skilbridge.png" alt="project1" class="projectImg">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--Contact-->
+        <section id="contact" class="mb-5">
+            <div class="">
+                <h1 class="text-center head pb-4">Contact</h1>
+                <form action="" id="contactForm">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                <span class="error-message"></span>
+                                <label for="floatingInput">Enter your name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="email"
+                                    placeholder="Enter your email address">
+                                <span class="error-message"></span>
+                                <label for="floatingPassword">Enter your email address</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="subject" placeholder="Enter subject">
+                                <span class="error-message"></span>
+                                <label for="floatingPassword">Enter subject</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here"
+                                    id="message"></textarea>
+                                <span class="error-message"></span>
+                                <label for="floatingTextarea">Message</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <button type="submit" class="btn btn-warning text-white d-flex align-items-center">Submit <div class="load ms-3"></div></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center footer-wrap fw-bold gap-2 justify-content-center">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>davidmgbede75@gamil.com</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center justify-content-md-end fw-bold gap-2 footer-wrap justify-content-center">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+ 234 7015263683</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--bootstrap script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!--custom-js-->
+    <script src="./js/apps.js"></script>
+</body>
+
+</html>
