@@ -1,4 +1,1 @@
-this is the Kodecamp day 1 task and it's about creating a personal portfolio, that comprises of 
-INTRODUCTION.
-PROJECT.
-CONTACT.
+this is the Kodecamp day 3 task and it's about developing a validating form
